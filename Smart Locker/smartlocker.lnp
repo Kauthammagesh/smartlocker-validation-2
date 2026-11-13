@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "dcmotor.o" "delay_ms.o" "keypad.o" "lcd.o" "led_buzzer.o" "main.o" "rfid.o" "uart.o" --strict --scatter "smartlocker.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\smartlocker.map" -o "smartlocker.axf"

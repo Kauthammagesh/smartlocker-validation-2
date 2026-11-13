@@ -1,0 +1,1 @@
+dcmotor.o: dcmotor.c

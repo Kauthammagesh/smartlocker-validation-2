@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'smartlocker.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"dcmotor.o"'
+### List of Objects: adding '"delay_ms.o"'
+### List of Objects: adding '"keypad.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"led_buzzer.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"rfid.o"'
+### List of Objects: adding '"uart.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "dcmotor.o" "delay_ms.o" "keypad.o" "lcd.o" "led_buzzer.o" "main.o" "rfid.o" "uart.o" --strict --scatter "smartlocker.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\smartlocker.map" -o "smartlocker.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'smartlocker.axf'
+### ADS-LD Command File: 'smartlocker.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'smartlocker.lnp', Handle=0x000000B0
+### Writing '.lnp' file
+### ADS-LD Command file 'smartlocker.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
